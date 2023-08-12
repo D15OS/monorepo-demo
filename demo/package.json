@@ -1,15 +1,14 @@
 {
-  "name": "@demo/vue-component",
+  "name": "@demo/demo",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@demo/core": "workspace:^"
-  },
-  "devDependencies": {}
+    "@demo/core": "workspace:^",
+    "@demo/vue-component": "workspace:^"
+  }
 }

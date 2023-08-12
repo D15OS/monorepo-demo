@@ -39,6 +39,9 @@ importers:
       '@demo/core':
         specifier: workspace:^
         version: link:../packages/core
+      '@demo/vue-component':
+        specifier: workspace:^
+        version: link:../components/vue-component
 
   packages/core: {}
 

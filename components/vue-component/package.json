@@ -4,17 +4,14 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-    "build": "vite build",
-    "test": "echo test"
+    "build": "vite build"
   },
   "main": "./dist/vueComponent.umd.js",
-  "module": "./dist/vueComponent.umd.js",
-  "types": "./dist/index.d.ts",
+  "module": "./dist/vueComponent.mjs",
   "exports": {
     ".": {
       "require": "./dist/vueComponent.umd.js",
-      "module": "./dist/vueComponent.umd.js",
-      "types": "./dist/index.d.ts"
+      "module": "./dist/vueComponent.mjs"
     }
   },
   "peerDependencies": {

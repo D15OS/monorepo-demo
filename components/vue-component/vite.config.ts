@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: './src/index.ts',
+      entry: './index.ts',
       name: 'vueComponent',
       fileName: 'vueComponent',
     },

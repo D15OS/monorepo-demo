@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "moduleResolution": "node",
+    // https://cn.vitejs.dev/guide/features.html#typescript-compiler-options
+    "isolatedModules": true,
+    "useDefineForClassFields": true
+  },
+  "references": [
+    // 聚合 ts project
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.component.json" }
+  ]
+}
+// npx tsc -p tsconfig.json --showConfig 查看包含的文件

@@ -20,5 +20,8 @@
   "dependencies": {
     "@demo/core": "workspace:^"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vue-eslint-parser": "^9.3.1",
+    "eslint-plugin-vue": "^9.17.0"
+  }
 }

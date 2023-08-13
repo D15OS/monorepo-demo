@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // 项目的根目录
+    "rootDir": ".",
+    // 项目基础目录
+    "baseUrl": ".",
+    // tsc 编译产物输出目录
+    "outDir": "dist",
+    // 编译目标 js 的版本
+    "target": "es2022",
+    "module": "esnext",
+    // 模块解析策略
+    "moduleResolution": "node",
+    // 产物不消除注释
+    "removeComments": false,
+    // 严格模式类型检查，建议开启
+    "strict": true,
+    // 与 esModuleInterop: true 配合允许从 commonjs 的依赖中直接按 import XX from 'xxx' 的方式导出 default 模块。
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // TODO:路径别名设置?
+    "paths": {
+      // "@demo/core": ["packages/core/index.ts"],
+      // "@demo/vueComponent": ["packages/components/vue-component/index.ts"]
+    }
+  },
+  "exclude": ["**/dist", "**/node_modules"]
+}
